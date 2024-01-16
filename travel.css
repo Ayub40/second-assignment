@@ -205,14 +205,14 @@ main {
 
 .box-section {
     /* grid-template-rows: repeat(3, 200px) 50px 50px; */
-    display: flex;
+    display: grid;
     justify-content: space-around;
-    /* grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 150px);
     gap: 24px;
-    width: 100%; */
-    width: 560px;
-    height: 284px;
+    width: 100%;
+    /* width: 560px;
+    height: 284px; */
 
 }
 
@@ -222,8 +222,9 @@ main {
     background: rgba(251, 181, 99, 0.05);
     /* padding: 128px; */
     text-align: center;
-    /* width: 560px;
-    height: 284px; */
+    width: 560px;
+    height: 284px;
+    margin-left: 25px;
 
 }
 
@@ -231,17 +232,25 @@ main {
     border-radius: 16px;
     border: 1px solid rgba(41, 206, 246, 0.20);
     background: rgba(41, 206, 246, 0.05);
-    /* width: 560px;
-    height: 284px; */
+    width: 560px;
+    height: 284px;
 
 }
+.middle-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 100vh;*/
+} 
 
 .box-3 {
     border-radius: 16px;
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
     align-items: center;
-    /* width: 560px;
-    height: 284px; */
+    text-align: center;
+    justify-content: center;
+    width: 560px;
+    height: 284px;
 
 }
