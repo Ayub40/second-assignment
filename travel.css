@@ -44,7 +44,6 @@
 /* header nav style */
 header {
     margin: 25px 135px;
-    border: 2px solid blue;
 }
 
 .nav-container {
@@ -211,7 +210,7 @@ span {
     width: fit-content;
     align-items: center;
     gap: 50px;
-    border: 2px solid blue;
+    
     /* text-align: center; */
     /* align-items: center; */
 
@@ -379,7 +378,7 @@ span {
     /* margin-bottom: 100px auto; */
     text-align: center;
     width: fit-content;
-    border: 2px solid blue;
+  
 }
 
 .choose-heading {
@@ -479,7 +478,7 @@ span {
     gap: 15px;
     /* margin-bottom: 100px;
     margin-top: 100px; */
-    border: 2px solid blue;
+   
     /* margin: 100px 135px; */
 }
 
